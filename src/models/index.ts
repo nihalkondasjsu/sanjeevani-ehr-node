@@ -1,0 +1,1 @@
+export {default as HealthRecord} from './health.record.model';

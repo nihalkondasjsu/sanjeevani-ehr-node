@@ -1,0 +1,1 @@
+export {default as HealthRecordRepository} from './health.record.repository';

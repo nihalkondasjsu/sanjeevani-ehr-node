@@ -1,0 +1,1 @@
+export {default as HealthRecordService} from './health.record.service';

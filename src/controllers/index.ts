@@ -1,0 +1,1 @@
+export {default as HealthRecordController} from './health.record.controller';

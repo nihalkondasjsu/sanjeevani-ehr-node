@@ -1,0 +1,1 @@
+export {default as HealthRecordRoutes} from './health.record.routes';
