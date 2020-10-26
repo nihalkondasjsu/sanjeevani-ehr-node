@@ -21,8 +21,10 @@ function startServer(){
     
     app.use('/api/v1',router);
     
-    app.listen(Config.PORT,()=>{
-        console.log('app listening',Config.PORT);
+    const port = process.env.PORT||Config.PORT
+
+    app.listen(port,()=>{
+        console.log('app listening',port);
     })
     
     Config.routesList(app);
