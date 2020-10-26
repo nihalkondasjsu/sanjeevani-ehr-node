@@ -8,6 +8,8 @@ startServer();
 
 function startServer(){
 
+    console.log(Config)
+
     mongoose.connect(Config.MONGO_URI,{
         useNewUrlParser:true,
         useUnifiedTopology: true
